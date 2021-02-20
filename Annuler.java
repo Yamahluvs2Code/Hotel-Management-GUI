@@ -110,9 +110,9 @@ public class Annuler extends JFrame {
 						daysbetween = Duration.between(startCal.toInstant(), endCal.toInstant()).toDays();
 
 						if (daysbetween < 1) {
-							JOptionPane.showMessageDialog(null,"Cet reservation est annuler SVP payez pour une journee : " + prixfinal + "$", "",JOptionPane.INFORMATION_MESSAGE);
+							JOptionPane.showMessageDialog(null,"This reservation is cancelled plz pay for one day : " + prixfinal + "$", "",JOptionPane.INFORMATION_MESSAGE);
 						} else {
-							JOptionPane.showMessageDialog(null, "Cet reservation est annuler", "",JOptionPane.INFORMATION_MESSAGE);
+							JOptionPane.showMessageDialog(null, "This reservation is cancelled ", "",JOptionPane.INFORMATION_MESSAGE);
 						}
 
 					}
