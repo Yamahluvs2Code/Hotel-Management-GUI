@@ -14,9 +14,12 @@ allowing them to complete their need.
 
 
 Ajouter (Add) :
-From this window the user has to input the last name, first name , telephone number,
+From this window the user can input the last name, first name , telephone number,
 arrival date, departure date and room type. The user has the choice between 4 types of rooms.
-Each room is 
+Each room is already initialized at the beginning of the program.
+
+
+
 
 
 
